@@ -1,0 +1,84 @@
+/*////////Page Style///////*/
+.story-container {
+    width: 70%;
+    padding: 10px;
+    margin-left: 150px;
+  }
+  
+  .story-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .storyImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 30%;
+    border-radius: 10px;
+    margin-bottom: 50px;
+  }
+  
+  .story-intro {
+    font-size: 20px;
+  }
+  .story-explanation{
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  .twitterpost {
+   margin-left: 50px;
+  }
+ h3 {
+  font-size: 24px;
+ }
+.leaguelogo{
+  width: 80px;
+  border-radius: 50px;
+}
+.league-container {
+  display: flex;
+}
+.leaguetext {
+  margin-left: 30px;
+  transition: color 0.3s ease;
+}
+.styled-hr {
+  border-radius: 10px;
+  height: 5px; 
+  border: none;
+  background-color: rgb(164, 190, 13); 
+  margin: 20px 0; 
+  font-weight: bold; 
+}
+
+.home-desc {
+  display: none;
+}
+
+
+
+
+
+ @media only screen and (max-width: 1000px) {
+  .story-container {
+    width: 95%;
+    padding: 10px;
+    margin-left: 0px;
+  }
+  .twitterpost {
+    margin-left: 0px;
+   }
+   .story-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .story-intro {
+    font-size: 16px;
+  }
+  .story-explanation{
+    font-size: 16px;
+    margin: 10px 0;
+  }
+ }

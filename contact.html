@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FootyFrenzy</title>
+<link rel="stylesheet" href="css/FootyFrenzy.css">
+<link rel="stylesheet" href="css/contact.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <header>
+       
+    <div class="logo-container">
+       <a  href="FootyFrenzy.html"><div class="logo"><i class="fa-solid fa-futbol"></i></div></a>
+        <a  href="FootyFrenzy.html"><div class="sitename"><h1>FootyFrenzy</h1></div></a>
+        
+      </div>
+      
+      
+    <nav class="nav-list">
+      
+        <ul>
+          <li><a href="FootyFrenzy.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="livescore.html">LiveScores</a></li>
+        </ul>
+        
+      </nav> 
+      
+
+     
+      
+     
+      <div class="sidebar" id="sidebar">
+        <br>
+        <div class="logo-container">
+          <a  href="FootyFrenzy.html"><div class="logo">&nbsp;&nbsp;<i class="fa-solid fa-futbol"></i></div></a>
+           <a  href="FootyFrenzy.html"><div class="sitename"><h1>FootyFrenzy</h1></div></a>
+           
+         </div>
+        
+        <ul>
+          <li><a href="FootyFrenzy.html"><i class="fa-solid fa-house"></i>&nbsp;Home</a></li>
+          <li><a href="contact.html"><i class="fa-regular fa-address-card"></i>&nbsp;Contact</a></li>
+          <li><a href="livescore.html"><i class="fa-solid fa-circle-dot"></i>&nbsp;LiveScores</a></li>
+        </ul>
+      </div>
+
+
+
+      <div class="specialNav">
+
+        <i class="fa-solid fa-toggle-on" onclick="changeColor()"></i>
+       <i id="search-icon"class="fas fa-search"></i>
+
+     
+       <div class="menu-btn" onclick="toggleSidebar()">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+
+  
+    </header>
+  
+
+
+    <div class="contain">
+
+      <div class="wrapper">
+    
+        <div class="form">
+          <h4>GET IN TOUCH</h4>
+          <h2 class="form-headline">Send us a message</h2>
+          <form id="submit-form" action="">
+            <p>
+              <input id="name" class="form-input" type="text" placeholder="Your Name*">
+              <small class="name-error"></small>
+            </p>
+            <p>
+              <input id="email" class="form-input" type="email" placeholder="Your Email*">
+              <small class="name-error"></small>
+            </p>
+            <p class="full-width">
+              <input id="company-name" class="form-input" type="number" placeholder="Telephone*" required>
+              <small></small>
+            </p>
+            <p class="full-width">
+              <textarea  minlength="20" id="message" cols="30" rows="7" placeholder="Your Message*" required></textarea>
+              <small></small>
+            </p>
+            <p class="full-width">
+              <input type="checkbox" id="checkbox" name="checkbox" checked> Yes, I would like to receive communications by call / email about Company's services.
+            </p>
+            <p class="full-width">
+              <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
+              <button class="reset-btn" onclick="reset()">Reset</button>
+            </p>
+          </form>
+        </div>
+    
+        <div class="contacts contact-wrapper">
+    
+          <ul>
+            <li>We've driven online revenues of over <span class="highlight-text-grey">$2
+                billion</span> for our clients. Ready to know
+              how we can help you?</li>
+            <span class="hightlight-contact-info">
+              <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> omoaredaniel@gmail.com</li>
+              <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+234 7082560363</span></li>
+            </span>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i>&nbsp;Top</button>
+
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo-container">
+      
+         <a  href="FootyFrenzy.html"><div class="sitename"><h1><i class="fa-solid fa-futbol"></i>FootyFrenzy</h1></div></a> 
+       </div>
+       
+    
+       <br>
+        <p>FootyFrenzy provides a variety of information and resources related to football, including news, scores, statistics, and analysis.</p>
+        <ul class="socials">
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-github"></i></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+      
+    </div>
+ 
+    <div class="footer-bottom">
+              <div class="footer-menu">
+               <p>copyright &copy; <a href="#">Daniel Develops, 2024.</a> 
+             </div>
+             </div>
+ 
+  </footer>
+  <script src="js/FootyFrenzy.js"></script>
+</body>
+</html>
