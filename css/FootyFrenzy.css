@@ -799,7 +799,7 @@ li:hover {
   color: #fff;
   top: 0;
   left: -270px; /* Hide the sidebar by default */
-  width: 250px;
+  width: 270px;
   height: 100%;
   background-color:  rgb(19, 19, 24);;
   transition: left 0.3s ease;
