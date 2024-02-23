@@ -798,7 +798,7 @@ li:hover {
   position: fixed;
   color: #fff;
   top: 0;
-  left: -250px; /* Hide the sidebar by default */
+  left: -270px; /* Hide the sidebar by default */
   width: 250px;
   height: 100%;
   background-color:  rgb(19, 19, 24);;
