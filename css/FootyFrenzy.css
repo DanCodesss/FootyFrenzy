@@ -1,7 +1,7 @@
 
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;;
-    background-color: rgb(19, 19, 24);
+    background-color:  #edeef0;
     padding: 5px;
 }
 @font-face {
@@ -86,8 +86,8 @@ header {
 
 }
 .dark{
-  background-color: #edeef0;
-    color: black;
+  background-color: rgb(19, 19, 24);
+    color: white;
 }
 .menu-btn {
     display: none; 
