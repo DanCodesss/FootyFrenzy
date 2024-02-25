@@ -3,7 +3,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;;
     background-color:  #edeef0;
     padding: 5px;
-    transition: all 0.5s ease-in-out;
+       transition: all 0.5s ease-in-out;
 }
 @font-face {
   font-family: font-sb;
@@ -272,7 +272,6 @@ header {
       padding: 20px 0;
       display: flex;
       position: relative;
-      transition: all 0.5s ease-in-out;
   }
    
   .news-section-move {
