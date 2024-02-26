@@ -4,6 +4,7 @@ body{
     background-color:  #edeef0;
     padding: 5px;
        transition: all 0.5s ease-in-out;
+       border: 10px solid;
 }
 @font-face {
   font-family: font-sb;
@@ -374,6 +375,7 @@ header {
     display: grid; 
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
+    border: 1px solid;
   }
   .notsidenews{
   width: 100%;
