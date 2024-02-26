@@ -382,10 +382,10 @@ header {
   margin-left: 30px;
   width: 80%;
 }
+.img-in-transfer-slider {
+  flex: 0 0 40%;
 }
-
-
-
+}
 
 
 
@@ -614,6 +614,7 @@ header {
     color: grey;
     font-size: 10px;
   }
+
   .slidingcontainer {
     height: 450px;
     width: 350px;
@@ -671,7 +672,12 @@ header {
 .news-section-move {
     left: -500px;
 }
- 
+.transfer-section-box {
+  height: 100%;
+}
+.img-in-transfer-slider {
+  flex: 0 0 50%;
+}
 .first-section-box,
 .second-section-box {
     height: 100%;
@@ -700,7 +706,6 @@ header {
     margin-top: 10px;
     border-radius: 10px;
   }
-
   .live-score-app {
     text-align: center;
     background-color: #818080;
