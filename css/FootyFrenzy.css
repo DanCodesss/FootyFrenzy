@@ -5,6 +5,8 @@ body{
     padding: 5px;
        transition: all 0.5s ease-in-out;
 }
+
+
 @font-face {
   font-family: font-sb;
   src: url(https://api.searchbar.org/fonts/sb.eot?39450784);
@@ -109,16 +111,7 @@ header {
   }
   
   
-   .image-container {
-    position: relative;
-    display: inline-block;
-    overflow: hidden; 
-  }
-  #Ticker {
-    color: #fff;
-    overflow: hidden;
-    white-space: nowrap;
-   }
+
    .fa-circle-dot{
     color: red;
   }
@@ -163,25 +156,32 @@ header {
       cursor: pointer;
       color: rgb(164, 190, 13);
     }
-    
-    .newsItem {
-      display: inline-block;
-      overflow: hidden;
-      width: calc(100% - 20px); /* Adjust the width as needed */
-      margin-right: 20px;
-  }
 
-  .newsItem:nth-child(3n) {
-      margin-right: 0;
-  }
-  .image-container {
-    position: relative;
-    display: inline-block;
-    overflow: hidden; 
-    width: 100%;
-    height: auto; 
-    display: block;
-  }
+    /* The dots/bullets/indicators */
+    .dot {
+      height: 8px;
+      width: 8px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active {
+      background-color: #717171;
+    }
+    
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
   .news-container {
     display: inline-flex;
     justify-content: space-between;
@@ -190,9 +190,10 @@ header {
     margin-left: 100px;
   }
   .topPosts {
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
     filter: brightness(70%);
+    margin-left: 80px
   }
   
   .topPosts:hover {
@@ -208,14 +209,6 @@ header {
       font-weight: bold;
       z-index: 1; 
     }
-    .container1 {
-      margin-top: 20px;
-      margin-left: 80px;
-      z-index: 1;
-     }
-     .topPosts {
-      width: 100%;
-     }
     .container2 {
       display: flex;
       margin-left: 80px;
@@ -408,6 +401,13 @@ header {
 .img-in-transfer-slider {
   flex: 0 0 40%;
 }
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+}
+.text {font-size: 11px}
 }
 
 
@@ -569,10 +569,6 @@ header {
     margin-left: 50px;
 
   }
-  .newsItem {
-    display: inline-block;
-    z-index: 1; 
-   }
   .topPosts {
     width: 100%;
     border-radius: 10px;
@@ -616,8 +612,8 @@ header {
    .image-text {
         font-size: 16px; 
         position: absolute;
-        top: 70%;
-        left: 35%;
+        top: 35%;
+        left: 20%;
         transform: translate(-50%, -50%);
         color: #fff;
         font-weight: bold;
