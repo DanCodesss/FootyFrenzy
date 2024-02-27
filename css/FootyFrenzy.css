@@ -213,6 +213,9 @@ header {
       margin-left: 80px;
       z-index: 1;
      }
+     .topPosts {
+      width: 100%;
+     }
     .container2 {
       display: flex;
       margin-left: 80px;
