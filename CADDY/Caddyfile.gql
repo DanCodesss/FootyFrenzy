@@ -1,6 +1,6 @@
 footyfrenzy.us.to {
     reverse_proxy {
-        to localhost:8080  # Adjust the port if your website is running on a different port
+        to localhost:8080  
     }
-    tls your_email@example.com  # Replace with your email address
+    tls omoare.iveshare@example.com 
 }
