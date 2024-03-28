@@ -1,6 +1,6 @@
 footyfrenzy.us.to {
     reverse_proxy {
-        to localhost:8080  
+        to localhost:2019  
     }
-    tls omoare.iveshare@example.com 
+    tls omoare.iveshare@gmail.com 
 }
